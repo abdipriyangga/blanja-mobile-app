@@ -175,7 +175,7 @@ getHomeData()
                                                         let img = product_img.split(',')[0]
                                                         return (
                                                             <>
-                                                                <Card new={true} key={id} navigation={navigation} product_name={product_name} product_price={product_price} product_img={img} keyId={id} category={category_name} color={color_name} size={size_name} rating={rating} dibeli={dibeli} />
+                                                                <Card new={true} key={id} navigation={navigation} product_name={product_name} product_price={product_price} product_img={img}  category={category_name} color={color_name} size={size_name} rating={rating} dibeli={dibeli} />
                                                             </>
                                                         )
                                                     })
