@@ -162,7 +162,7 @@ getHomeData()
                                         </View>
                                         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
                                             <Text style={{ color: 'gray', marginBottom: 15 }}>You've never seen it before!</Text>
-                                            <TouchableOpacity onPress={() => navigation.navigate('Search')}>
+                                            <TouchableOpacity onPress={() => navigation.navigate('ViewAll')}>
                                                 <Text>View All</Text>
                                             </TouchableOpacity>
                                         </View>

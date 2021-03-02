@@ -53,8 +53,8 @@ import { useSocket } from './utils/context/SocketProvider'
 import { showNotification } from './notif'
 
 import { useSelector } from 'react-redux'
-
 import Chat from './screens/profile/chat'
+import ViewAll from './screens/home/viewAll'
 
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -192,6 +192,7 @@ const appRouter = () => {
           <Stack.Screen name="Review" component={Review} />
           <Stack.Screen name="Chat" component={Chat} />
           <Stack.Screen name="Search" component={Search} />
+          <Stack.Screen name="ViewAll" component={ViewAll} />
         </Stack.Navigator>
       </SocketProvider>
 
